@@ -9,6 +9,12 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname + '/build')
   },
+  devServer: {
+    static: {
+      directory: path.resolve(__dirname, 'dist')
+    },
+    port: 3000
+  },
   mode: 'development',
   module: {
     rules: [

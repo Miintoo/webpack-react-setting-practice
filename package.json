@@ -6,7 +6,8 @@
   "author": "Minto <xpeed96@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve --open --hot"
   },
   "devDependencies": {
     "@babel/core": "^7.21.4",
